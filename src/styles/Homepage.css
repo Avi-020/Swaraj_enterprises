@@ -1,0 +1,45 @@
+.main{
+    width: auto;
+    height: auto;
+    display: flex;
+}
+.left{
+    flex:1;
+
+}
+.left p{
+    font-family: Lato;
+    font-size: large;
+    margin-left: 8vh;
+    line-height: 40px;
+}
+
+.left h1{
+    margin-top: 15vh;
+    color: #555770;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 60px;
+    margin-left: 8vh;
+}
+.contact{
+    background-color: #2A769A;
+    width: 25vh;
+    height: 5vh;
+    margin-left: 8vh;
+    text-align: center;
+    border-radius: 8px;
+    color: aliceblue;
+    font-size: larger;
+}
+
+
+
+
+
+
+
+.right{
+    flex:1;
+    text-align: center;
+}

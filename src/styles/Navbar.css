@@ -1,0 +1,44 @@
+
+  .navbar{
+    justify-content: center;
+    font-family: Poppins;
+    font-weight:400;
+  }
+  
+  .nav-link {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #031D44;
+    padding: 20px 0px;
+    margin: 0px 25px;
+    display: inline-block;
+    position: relative;
+    /* opacity: 0.75; */
+  }
+  
+  .nav-link:hover {
+    opacity: 1;
+  }
+
+  .active{
+    color: #1C9DDF;
+  }
+  
+  .nav-link::before {
+    transition: 300ms;
+    height: 2px;
+    content: "";
+    position: absolute;
+    background-color: #1C9DDF;
+  }
+  
+  .nav-link-ltr::before {
+    width: 0%;
+    bottom: 10px;
+  }
+  
+  .nav-link-ltr:hover::before {
+    width: 100%;
+  }
