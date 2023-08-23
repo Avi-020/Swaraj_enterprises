@@ -6,7 +6,7 @@ function HomePage() {
   return (
     <>
 
-      <div className="main">
+      <div className="main" style={{backgroundColor:"#F7F7F7"}}>
         <div className="left">
           <h1>Welcome to our wholesale Retailer distribution
             Enterprise</h1>
