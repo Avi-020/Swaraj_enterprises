@@ -1,0 +1,12 @@
+.icons{
+    text-align: center;
+}
+.icons img{
+    padding: 20px 0px;
+    margin: 0px 25px;
+    display: inline-block;
+    position: relative;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    
+}
