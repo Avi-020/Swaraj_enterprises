@@ -34,12 +34,42 @@
 }
 
 
-
-
-
-
-
 .right{
     flex:1;
     text-align: center;
+}
+
+@media screen and (max-width: 767px){
+
+    .store{
+        display: none;
+    }
+    
+    .right{
+      width: 80%;
+      position: absolute;
+      margin-left: 10%;
+    }
+    .left h1{
+     font-size: 19px;
+     margin-top: 60%;
+     margin-top: 1vh;
+
+
+    }
+.left p{
+    font-size: 15px;
+}
+.mstore{
+    margin-left: 14%;
+    
+}
+
+}
+@media screen and (min-width: 767px){
+    .mstore{
+        display: none;
+
+    }
+    
 }
