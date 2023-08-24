@@ -3,6 +3,7 @@ import './App.css';
 import History from './Components/History';
 import HomePage from './Components/HomePage';
 import Navbar from './Components/Navbar';
+import Profile from './Components/Profile';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <Navbar/>
     <HomePage/>
     <History/>
+    <Profile/>
     </>
   );
 }
