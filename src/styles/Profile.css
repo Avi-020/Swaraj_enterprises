@@ -1,0 +1,39 @@
+.profile{
+    background-color: #F1E8E8;
+}
+h1{
+    padding-top: 4vw;
+    padding-bottom: 8vh;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 600;
+}
+.image{
+    margin-left: 6vw;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.info{
+    font-family: Lato;
+    margin-left: 5vw;
+    margin-top: 3vw;
+}
+.ownerName{
+    color: #003966;
+    font-weight: 600;
+}
+.Cname{
+    margin-top: 2vh;
+    font-weight: 500;
+}
+p{
+    margin-top: 3vw;
+    color: #716E6E;
+    font-size: larger;
+    line-height: 30px;
+}
+.SocialMedia img{
+   margin-right: 3vh;
+}
