@@ -43,17 +43,19 @@ function Navbar() {
 
   return (
     <div className={`navbar ${isMenuOpen ? 'open' : ''}`}>
+      <div className="stylenavbar">
       <img src={logo} alt="" />
-      <Typography className="swaraj" style={{fontWeight:"550",font:"lato",fontSize:"17px"}}>Swaraj enterprise</Typography>
+      <Typography className="swaraj" style={{fontWeight:"550",font:"lato",fontSize:"20px",marginTop:"2%"}}>Swaraj enterprise</Typography>
       <button className="menu-button" onClick={toggleMenu}>
         <MenuIcon/>
-      </button>
+      </button></div>
       <div className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
-        <a className="nav-link nav-link-ltr active" href="#">Home</a>
-        <a className="nav-link nav-link-ltr" >History</a>
-        <a className="nav-link nav-link-ltr" >Products</a>
-        <a className="nav-link nav-link-ltr" >Profile</a>
-        <a className="nav-link nav-link-ltr" >Contact us</a>
+        
+        <a className="nav-link nav-link-ltr active" href="#" >Home</a>
+        <a className="nav-link nav-link-ltr" href="#">History</a>
+        <a className="nav-link nav-link-ltr" href="#">Products</a>
+        <a className="nav-link nav-link-ltr" href="#">Profile</a>
+        <a className="nav-link nav-link-ltr" href="#">Contact us</a>
         <a className="nav" >Social Media</a>
         <div style={{display:"flex",justifyContent:"row"}}>     
            <div className="facebook" style={{marginLeft:"2%",marginTop:"1%"}}><FacebookOutlinedIcon ></FacebookOutlinedIcon></div>

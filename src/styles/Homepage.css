@@ -10,7 +10,7 @@
 .left p{
     font-family: Lato;
     font-size: large;
-    margin-left: 8vh;
+    margin-left: 6vh;
     line-height: 40px;
 }
 
@@ -20,7 +20,7 @@
     font-family: Poppins;
     font-weight: 700;
     line-height: 60px;
-    margin-left: 8vh;
+    margin-left: 6vh;
 }
 .contact{
     background-color: #2A769A;
@@ -48,12 +48,16 @@
     .right{
       width: 80%;
       position: absolute;
-      margin-left: 10%;
+      margin-left: 1%;
     }
     .left h1{
      font-size: 19px;
      margin-top: 60%;
      margin-top: 1vh;
+     color: #555770;
+     font-family: Poppins;
+     font-weight: 700;
+     font-size: 22px;
 
 
     }

@@ -45,7 +45,8 @@
   /* Default styling */
  
   
-@media screen and (min-width: 768px) {
+  
+ @media screen and (min-width: 768px) {
   .nav-link-nav-link-ltr-1{
     display: none;
   }
@@ -98,17 +99,25 @@
 }
 
 /* Media queries for tablet view and mobile view */
-@media (max-width: 767px) {
- 
+ @media (max-width: 767px) {
+ .stylenavbar{
+  display: flex;
+  justify-content: space-between;
+  height: 3%;
+  width: 100%;
+  
+ }
   .nav{
     margin-left: 3.5%;
   }
 .swaraj{
   text-transform: uppercase;
+  font-weight: 800;
 }
 .menu-button{
   border: none;
   background-color: #fff;
+  margin-bottom: 3%;
 }
   .nav-links {
     flex-direction: column;
@@ -127,6 +136,11 @@
   .nav-links.open {
     display: flex;
   }
+  .navbar{
+    justify-content: center;
+    font-family: Poppins;
+    font-weight:400;
+  }
 
 }
 
@@ -135,4 +149,4 @@
     margin-left: 2%;
   }
   
-}
+}  
