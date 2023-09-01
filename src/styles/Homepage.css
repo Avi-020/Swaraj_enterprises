@@ -14,13 +14,14 @@
     line-height: 40px;
 }
 
-.left h1{
+ .heading{
     margin-top: 15vh;
     color: #555770;
     font-family: Poppins;
     font-weight: 700;
     line-height: 60px;
     margin-left: 8vh;
+    font-size: 3vw;
 }
 .contact{
     background-color: #2A769A;
