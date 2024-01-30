@@ -1,12 +1,10 @@
 .main{
     width: auto;
     height: auto;
-    display: flex;
+    position: relative;
+    direction: rtl;
 }
-.left{
-    flex:1;
 
-}
 .left p{
     font-family: Lato;
     font-size: large;
@@ -36,11 +34,41 @@
 
 
 
+.left{
+
+    /* display: flex; */
+}
 
 
 
 
 .right{
-    flex:1;
     text-align: center;
+    
 }
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    
+    
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+}
+.right{
+    /* background-color: red; */
+}
+.left{
+
+}
+   
+      .right img {
+        /* flex:1; */
+        text-align: center;
+        margin-top: 2vh;
+    }
+
+  }
