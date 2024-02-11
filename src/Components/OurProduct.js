@@ -1,6 +1,16 @@
 import React from 'react'
 import "../styles/OurProduct.css"
 import bolts from "../images/bolts.svg"
+import socketScrew from "../images/socketScrew.svg"
+import selfdrivingscrew from "../images/selfdrivingscrew.svg"
+import sheetmetalscrews from "../images/sheet-metal-screws.svg"
+import MachinScrew from "../images/MachinScrew.svg"
+import CarriageBolt from "../images/CarriageBolt.svg"
+import Revets from "../images/Revets.svg"
+import foundationBoalt from "../images/foundationBoalt.svg"
+import Mesh from "../images/Mesh.svg"
+import Nails from "../images/Nails.svg"
+import Eyenut from "../images/Eyenut.svg"
 
 
 function OurProduct() {
@@ -39,7 +49,7 @@ function OurProduct() {
     {/* <!-- Team Member 3 --> */}
     <div className="col-xl-3 col-md-6 mb-4">
       <div className="card border-0 shadow">
-        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" className="card-img-top" alt="..." />
+        <img src={socketScrew} className="card-img-top" alt="..." />
         <div className="card-body text-center">
           <h5 className="card-title mb-0">Socket Screws</h5>
            
@@ -60,7 +70,7 @@ function OurProduct() {
 
     <div className="col-xl-3 col-md-6 mb-4">
       <div className="card border-0 shadow">
-        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" className="card-img-top" alt="..." />
+        <img src={selfdrivingscrew} className="card-img-top" alt="..." />
         <div className="card-body text-center">
           <h5 className="card-title mb-0">Self Drilling Screws
 </h5>
@@ -83,7 +93,7 @@ function OurProduct() {
 
     <div className="col-xl-3 col-md-6 mb-4">
       <div className="card border-0 shadow">
-        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" className="card-img-top" alt="..." />
+        <img src={sheetmetalscrews} className="card-img-top" alt="..." />
         <div className="card-body text-center">
           <h5 className="card-title mb-0">Sheet Metal Screws
 </h5>
@@ -95,7 +105,7 @@ function OurProduct() {
 
     <div className="col-xl-3 col-md-6 mb-4">
       <div className="card border-0 shadow">
-        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" className="card-img-top" alt="..." />
+        <img src={MachinScrew} className="card-img-top" alt="..." />
         <div className="card-body text-center">
           <h5 className="card-title mb-0">Machine Screws</h5>
            
@@ -129,7 +139,7 @@ function OurProduct() {
 
     <div className="col-xl-3 col-md-6 mb-4">
       <div className="card border-0 shadow">
-        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" className="card-img-top" alt="..." />
+        <img src={CarriageBolt} className="card-img-top" alt="..." />
         <div className="card-body text-center">
           <h5 className="card-title mb-0">Carriage Bolts</h5>
            
@@ -140,7 +150,7 @@ function OurProduct() {
 
     <div className="col-xl-3 col-md-6 mb-4">
       <div className="card border-0 shadow">
-        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" className="card-img-top" alt="..." />
+        <img src={Revets} className="card-img-top" alt="..." />
         <div className="card-body text-center">
           <h5 className="card-title mb-0">Rivets</h5>
            
@@ -175,7 +185,7 @@ function OurProduct() {
 
     <div className="col-xl-3 col-md-6 mb-4">
       <div className="card border-0 shadow">
-        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" className="card-img-top" alt="..." />
+        <img src={foundationBoalt} className="card-img-top" alt="..." />
         <div className="card-body text-center">
           <h5 className="card-title mb-0">Foundation Bolts</h5>
            
@@ -197,7 +207,7 @@ function OurProduct() {
 
     <div className="col-xl-3 col-md-6 mb-4">
       <div className="card border-0 shadow">
-        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" className="card-img-top" alt="..." />
+        <img src={Mesh} className="card-img-top" alt="..." />
         <div className="card-body text-center">
           <h5 className="card-title mb-0">Mesh</h5>
            
@@ -219,7 +229,7 @@ function OurProduct() {
 
     <div className="col-xl-3 col-md-6 mb-4">
       <div className="card border-0 shadow">
-        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" className="card-img-top" alt="..." />
+        <img src={Nails} className="card-img-top" alt="..." />
         <div className="card-body text-center">
           <h5 className="card-title mb-0">Nails</h5>
            
@@ -230,7 +240,7 @@ function OurProduct() {
 
     <div className="col-xl-3 col-md-6 mb-4">
       <div className="card border-0 shadow">
-        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" className="card-img-top" alt="..." />
+        <img src={Eyenut} className="card-img-top" alt="..." />
         <div className="card-body text-center">
           <h5 className="card-title mb-0">Eyenuts & Eyebolts</h5>
            
