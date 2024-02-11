@@ -1,217 +1,250 @@
 import React from 'react'
 import "../styles/OurProduct.css"
+import bolts from "../images/bolts.svg"
 
 
 function OurProduct() {
   return (
-    <div>
-    <div
-        id="carouselMultiItemExample"
-        className="carousel slide carousel-dark text-center"
-        data-mdb-ride="carousel"
-      >
+   <>
+   {/* <!-- Header --> */}
+<header className="bg-primary text-center py-5 mb-4">
+  <div className="container">
+    <h1 className="fw-light text-white">Manufacturer Packaging Unit </h1>
+  </div>
+</header>
 
-        {/* <!-- Inner --> */}
-        <div className="carousel-inner py-4">
-          {/* <!-- Single item --> */}
-          <div className="carousel-item active">
-            <div className="container">
-              <div className="row">
-                <div className="col-lg-4">
-                  <div className="card">
-                    <img
-                      src="https://media.gettyimages.com/id/1297349747/photo/hot-air-balloons-flying-over-the-botan-canyon-in-turkey.jpg?s=612x612&w=gi&k=20&c=Uo_yzYm9UJu6GpKilOLGrCbiSjyMB5DsvZTYpybYxj4="
-                      className="card-img-top"
-                      alt="Waterfall"
-                    />
-                    <div className="card-body">
-                      <h5 className="card-title"> Lorem ipsum dolor sit amet.</h5>
-                      <p className="card-text">
-                         lorem description
-                         
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-lg-4 d-none d-lg-block">
-                  <div className="card">
-                    <img
-                      src="https://media.gettyimages.com/id/1297349747/photo/hot-air-balloons-flying-over-the-botan-canyon-in-turkey.jpg?s=612x612&w=gi&k=20&c=Uo_yzYm9UJu6GpKilOLGrCbiSjyMB5DsvZTYpybYxj4="
-                      className="card-img-top"
-                      alt="Sunset Over the Sea"
-                    />
-                    <div className="card-body">
-                      <h5 className="card-title"> Lorem ipsum dolor sit amet.</h5>
-                      <p className="card-text">
-                         lorem description
-                         
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-lg-4 d-none d-lg-block">
-                  <div className="card">
-                    <img
-                      src="https://media.gettyimages.com/id/1297349747/photo/hot-air-balloons-flying-over-the-botan-canyon-in-turkey.jpg?s=612x612&w=gi&k=20&c=Uo_yzYm9UJu6GpKilOLGrCbiSjyMB5DsvZTYpybYxj4="
-                      className="card-img-top"
-                      alt="Sunset over the Sea"
-                    />
-                    <div className="card-body">
-                      <h5 className="card-title"> Lorem ipsum dolor sit amet.</h5>
-                      <p className="card-text">
-                         lorem description
-                         
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* <!-- Single item --> */}
-          <div className="carousel-item">
-            <div className="container">
-              <div className="row">
-                <div className="col-lg-4 col-md-12">
-                  <div className="card">
-                    <img
-                      src="https://media.gettyimages.com/id/1297349747/photo/hot-air-balloons-flying-over-the-botan-canyon-in-turkey.jpg?s=612x612&w=gi&k=20&c=Uo_yzYm9UJu6GpKilOLGrCbiSjyMB5DsvZTYpybYxj4="
-                      className="card-img-top"
-                      alt="Fissure in Sandstone"
-                    />
-                    <div className="card-body">
-                      <h5 className="card-title"> Lorem ipsum dolor sit amet.</h5>
-                      <p className="card-text">
-                         lorem description
-                         
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-lg-4 d-none d-lg-block">
-                  <div className="card">
-                    <img
-                      src="https://media.gettyimages.com/id/1297349747/photo/hot-air-balloons-flying-over-the-botan-canyon-in-turkey.jpg?s=612x612&w=gi&k=20&c=Uo_yzYm9UJu6GpKilOLGrCbiSjyMB5DsvZTYpybYxj4="
-                      className="card-img-top"
-                      alt="Storm Clouds"
-                    />
-                    <div className="card-body">
-                      <h5 className="card-title"> Lorem ipsum dolor sit amet.</h5>
-                      <p className="card-text">
-                         lorem description
-                         
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-lg-4 d-none d-lg-block">
-                  <div className="card">
-                    <img
-                      src="https://media.gettyimages.com/id/1297349747/photo/hot-air-balloons-flying-over-the-botan-canyon-in-turkey.jpg?s=612x612&w=gi&k=20&c=Uo_yzYm9UJu6GpKilOLGrCbiSjyMB5DsvZTYpybYxj4="
-                      className="card-img-top"
-                      alt="Hot Air Balloons"
-                    />
-                    <div className="card-body">
-                      <h5 className="card-title"> Lorem ipsum dolor sit amet.</h5>
-                      <p className="card-text">
-                         lorem description
-                         
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* <!-- Single item --> */}
-          <div className="carousel-item">
-            <div className="container">
-              <div className="row">
-                <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                  <div className="card">
-                    <img
-                      src="https://media.gettyimages.com/id/1297349747/photo/hot-air-balloons-flying-over-the-botan-canyon-in-turkey.jpg?s=612x612&w=gi&k=20&c=Uo_yzYm9UJu6GpKilOLGrCbiSjyMB5DsvZTYpybYxj4="
-                      className="card-img-top"
-                      alt="Peaks Against the Starry Sky"
-                    />
-                    <div className="card-body">
-                      <h5 className="card-title"> Lorem ipsum dolor sit amet.</h5>
-                      <p className="card-text">
-                         lorem description
-                         
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
-                  <div className="card">
-                    <img
-                      src="https://media.gettyimages.com/id/1297349747/photo/hot-air-balloons-flying-over-the-botan-canyon-in-turkey.jpg?s=612x612&w=gi&k=20&c=Uo_yzYm9UJu6GpKilOLGrCbiSjyMB5DsvZTYpybYxj4="
-                      className="card-img-top"
-                      alt="Bridge Over Water"
-                    />
-                    <div className="card-body">
-                      <h5 className="card-title"> Lorem ipsum dolor sit amet.</h5>
-                      <p className="card-text">
-                         lorem description
-                         
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
-                  <div className="card">
-                    <img
-                      src="https://media.gettyimages.com/id/1297349747/photo/hot-air-balloons-flying-over-the-botan-canyon-in-turkey.jpg?s=612x612&w=gi&k=20&c=Uo_yzYm9UJu6GpKilOLGrCbiSjyMB5DsvZTYpybYxj4="
-                      className="card-img-top"
-                      alt="Purbeck Heritage Coast"
-                    />
-                    <div className="card-body">
-                      <h5 className="card-title"> Lorem ipsum dolor sit amet.</h5>
-                     
-                      <p className="card-text">
-                         lorem description
-                         
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* <!-- Inner --> */}
-        {/* <!-- Controls --> */}
-        <div className="d-flex justify-content-center mb-4">
-          <button
-            className="carousel-control-prev position-relative"
-            type="button"
-            data-mdb-target="#carouselMultiItemExample"
-            data-mdb-slide="prev"
-          >
-            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span className="visually-hidden">Previous</span>
-          </button>
-          <button
-            className="carousel-control-next position-relative"
-            type="button"
-            data-mdb-target="#carouselMultiItemExample"
-            data-mdb-slide="next"
-          >
-            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-            <span className="visually-hidden">Next</span>
-          </button>
+{/* <!-- Page Content --> */}
+<div className="container">
+  <div className="row">
+    {/* <!-- Team Member 1 --> */}
+    <div className="col-xl-3 col-md-6 mb-4">
+      <div className="card border-0 shadow">
+        <img src={bolts} className="card-img-top" alt="..." />
+        <div className="card-body text-center">
+          <h5 className="card-title mb-0">Hex Head Screws / Bolts</h5>
+          {/*   */}
         </div>
       </div>
     </div>
+    {/* <!-- Team Member 2 --> */}
+    <div className="col-xl-3 col-md-6 mb-4">
+      <div className="card border-0 shadow">
+        <img src="https://source.unsplash.com/9UVmlIb0wJU/500x350" className="card-img-top" alt="..." />
+        <div className="card-body text-center">
+          <h5 className="card-title mb-0">Nuts</h5>
+           
+        </div>
+      </div>
+    </div>
+    {/* <!-- Team Member 3 --> */}
+    <div className="col-xl-3 col-md-6 mb-4">
+      <div className="card border-0 shadow">
+        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" className="card-img-top" alt="..." />
+        <div className="card-body text-center">
+          <h5 className="card-title mb-0">Socket Screws</h5>
+           
+        </div>
+      </div>
+    </div>
+    
+
+    <div className="col-xl-3 col-md-6 mb-4">
+      <div className="card border-0 shadow">
+        <img src="https://source.unsplash.com/7u5mwbu7qLg/500x350" className="card-img-top" alt="..." />
+        <div className="card-body text-center">
+          <h5 className="card-title mb-0">Anchors</h5>
+           
+        </div>
+      </div>
+    </div>
+
+    <div className="col-xl-3 col-md-6 mb-4">
+      <div className="card border-0 shadow">
+        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" className="card-img-top" alt="..." />
+        <div className="card-body text-center">
+          <h5 className="card-title mb-0">Self Drilling Screws
+</h5>
+           
+        </div>
+      </div>
+    </div>
+
+
+    <div className="col-xl-3 col-md-6 mb-4">
+      <div className="card border-0 shadow">
+        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" className="card-img-top" alt="..." />
+        <div className="card-body text-center">
+          <h5 className="card-title mb-0">Washers</h5>
+           
+        </div>
+      </div>
+    </div>
+
+
+    <div className="col-xl-3 col-md-6 mb-4">
+      <div className="card border-0 shadow">
+        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" className="card-img-top" alt="..." />
+        <div className="card-body text-center">
+          <h5 className="card-title mb-0">Sheet Metal Screws
+</h5>
+           
+        </div>
+      </div>
+    </div>
+
+
+    <div className="col-xl-3 col-md-6 mb-4">
+      <div className="card border-0 shadow">
+        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" className="card-img-top" alt="..." />
+        <div className="card-body text-center">
+          <h5 className="card-title mb-0">Machine Screws</h5>
+           
+        </div>
+      </div>
+    </div>
+
+
+    <div className="col-xl-3 col-md-6 mb-4">
+      <div className="card border-0 shadow">
+        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" className="card-img-top" alt="..." />
+        <div className="card-body text-center">
+          <h5 className="card-title mb-0">Studs</h5>
+           
+        </div>
+      </div>
+    </div>
+
+
+    <div className="col-xl-3 col-md-6 mb-4">
+      <div className="card border-0 shadow">
+        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" className="card-img-top" alt="..." />
+        <div className="card-body text-center">
+          <h5 className="card-title mb-0">Coach Screws</h5>
+           
+        </div>
+      </div>
+    </div>
+
+
+
+    <div className="col-xl-3 col-md-6 mb-4">
+      <div className="card border-0 shadow">
+        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" className="card-img-top" alt="..." />
+        <div className="card-body text-center">
+          <h5 className="card-title mb-0">Carriage Bolts</h5>
+           
+        </div>
+      </div>
+    </div>
+
+
+    <div className="col-xl-3 col-md-6 mb-4">
+      <div className="card border-0 shadow">
+        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" className="card-img-top" alt="..." />
+        <div className="card-body text-center">
+          <h5 className="card-title mb-0">Rivets</h5>
+           
+        </div>
+      </div>
+    </div>
+
+
+    <div className="col-xl-3 col-md-6 mb-4">
+      <div className="card border-0 shadow">
+        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" className="card-img-top" alt="..." />
+        <div className="card-body text-center">
+          <h5 className="card-title mb-0">Scaffolding Hardware</h5>
+           
+        </div>
+      </div>
+    </div>
+
+
+
+    <div className="col-xl-3 col-md-6 mb-4">
+      <div className="card border-0 shadow">
+        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" className="card-img-top" alt="..." />
+        <div className="card-body text-center">
+          <h5 className="card-title mb-0">Welding Hardware</h5>
+           
+        </div>
+      </div>
+    </div>
+
+
+
+    <div className="col-xl-3 col-md-6 mb-4">
+      <div className="card border-0 shadow">
+        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" className="card-img-top" alt="..." />
+        <div className="card-body text-center">
+          <h5 className="card-title mb-0">Foundation Bolts</h5>
+           
+        </div>
+      </div>
+    </div>
+
+
+    <div className="col-xl-3 col-md-6 mb-4">
+      <div className="card border-0 shadow">
+        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" className="card-img-top" alt="..." />
+        <div className="card-body text-center">
+          <h5 className="card-title mb-0">Pipe Support Solutions</h5>
+           
+        </div>
+      </div>
+    </div>
+
+
+    <div className="col-xl-3 col-md-6 mb-4">
+      <div className="card border-0 shadow">
+        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" className="card-img-top" alt="..." />
+        <div className="card-body text-center">
+          <h5 className="card-title mb-0">Mesh</h5>
+           
+        </div>
+      </div>
+    </div>
+
+
+    <div className="col-xl-3 col-md-6 mb-4">
+      <div className="card border-0 shadow">
+        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" className="card-img-top" alt="..." />
+        <div className="card-body text-center">
+          <h5 className="card-title mb-0">Hooks & Pins</h5>
+           
+        </div>
+      </div>
+    </div>
+
+
+    <div className="col-xl-3 col-md-6 mb-4">
+      <div className="card border-0 shadow">
+        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" className="card-img-top" alt="..." />
+        <div className="card-body text-center">
+          <h5 className="card-title mb-0">Nails</h5>
+           
+        </div>
+      </div>
+    </div>
+
+
+    <div className="col-xl-3 col-md-6 mb-4">
+      <div className="card border-0 shadow">
+        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" className="card-img-top" alt="..." />
+        <div className="card-body text-center">
+          <h5 className="card-title mb-0">Eyenuts & Eyebolts</h5>
+           
+        </div>
+      </div>
+    </div>
+   
+  </div>
+  {/* <!-- /.row --> */}
+
+</div>
+   
+   
+   </>
   )
 }
 

@@ -16,9 +16,9 @@ function App() {
     <HomePage/>
     <History/>
     <Profile/>
+    <OurProduct/>
     <ContactUs/>
     <Footer/>
-    {/* <OurProduct/> */}
     </>
   );
 }
