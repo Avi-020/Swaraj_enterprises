@@ -17,7 +17,7 @@ function App() {
     <History/>
     <Profile/>
     <OurProduct/>
-    <ContactUs/>
+    {/* <ContactUs/> */}
     <Footer/>
     </>
   );

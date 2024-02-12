@@ -17,7 +17,7 @@ function OurProduct() {
   return (
    <>
    {/* <!-- Header --> */}
-<header className="bg-primary text-center py-5 mb-4">
+<header className=" text-center py-5 mb-4" style={{backgroundColor:"#2A769A"}}>
   <div className="container">
     <h1 className="fw-light text-white">Manufacturer Packaging Unit </h1>
   </div>
