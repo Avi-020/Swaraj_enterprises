@@ -6,7 +6,7 @@ function HomePage() {
   return (
     <>
 
-      <div className="main" style={{ backgroundColor: "#F7F7F7", paddingBottom: "15vw" }}>
+      <div className="main" style={{ backgroundColor: "#F7F7F7", paddingBottom: "25vw",backgroundImage:"url(https://lh5.googleusercontent.com/p/AF1QipPgHkkaKlL5E3sD140UdONI2cA9zHQoGzq1PY4t=w1080-k-no)" }}>
 
 
 
@@ -23,10 +23,9 @@ function HomePage() {
 
         </div>
         <div className="left">
-          <div className='heading'>Welcome to our wholesale
-            Retailer distribution
-            Enterprise</div>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+          <div className='heading'>Our commitment to quality isn't just a promise;  it's a tradition that spans generations</div>
+          {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p> */}
+          <h5 className='ml-5'><b>"Quality isn't just a goal; it's our standard</b></h5>
           <div className="contact">
             Contact Us
           </div>

@@ -19,7 +19,7 @@ function History() {
 
     <div className="trusted by mt-5">
 
-        <h6 style={{textAlign:"center"}}>Trusted by 45M+ users</h6>
+        <h2 style={{textAlign:"center"}}>Our Clients</h2>
 
         <div className="icons" >
             <img src={trusted} alt="" />
