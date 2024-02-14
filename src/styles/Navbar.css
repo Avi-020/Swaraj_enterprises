@@ -59,6 +59,7 @@
   font-family: Poppins;
   font-weight:400;
   background-color: #F7F7F7;
+  position: relative;
 }
 
 .nav-link {

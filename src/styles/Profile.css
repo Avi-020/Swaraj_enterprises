@@ -1,5 +1,6 @@
 .profile{
     background-color: #F1E8E8;
+    padding-bottom: 3vh;
 }
 h1{
     padding-top: 4vw;
@@ -37,3 +38,17 @@ p{
 .SocialMedia img{
    margin-right: 3vh;
 }
+
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .image{
+        margin-left: 0vw;
+    }
+
+
+
+}
+

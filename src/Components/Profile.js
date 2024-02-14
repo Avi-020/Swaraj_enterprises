@@ -9,50 +9,50 @@ import linkdin from "../images/linkdin.svg"
 function Profile() {
   return (
     <>
-    
-    <div className="profile">
-    <h1>Owners Profile</h1>
 
-<div className="main">
+      <div className="profile">
+        <h1>Owners Profile</h1>
 
-<div className="image">
+        <div className="main">
 
-<img src={owner} alt="" />
+          <div className="image">
 
-</div>
+            <img src={owner} alt="" />
 
-<div className="info">
+          </div>
 
-<h3 className='ownerName'>Swaraj Dhamale</h3>
-BE Machanical, MBA
-<h3 className='Cname'>
-Co-Founder - Swaraj Enterprise</h3>
+          <div className="info">
 
-<p>
+            <h3 className='ownerName'>Swaraj Dhamale</h3>
+            BE Machanical, MBA
+            <h3 className='Cname'>
+              Co-Founder - Swaraj Enterprise</h3>
 
-
-"Swaraj Enterprise was founded by two visionary entrepreneurs, Swati Dhamale and Swaraj Dhamale, with a shared passion for innovation and sustainability. Together, they embarked on a mission to revolutionize the energy sector by developing cutting-edge renewable technologies. Their unwavering commitment to a greener future and their complementary skills in engineering and business have propelled Swaraj Enterprise to new heights, making it a leading force in sustainable energy solutions."
-</p>
-
-<div className="SocialMedia">
-
-<img src={linkdin} alt="" />
-<img src={twitter} alt="" />
-<img src={insta} alt="" />
-
-</div>
-
-</div>
-</div>
+            <p>
 
 
+              "Swaraj Enterprise was founded by two visionary entrepreneurs, Swati Dhamale and Swaraj Dhamale, with a shared passion for innovation and sustainability. Together, they embarked on a mission to revolutionize the energy sector by developing cutting-edge renewable technologies. Their unwavering commitment to a greener future and their complementary skills in engineering and business have propelled Swaraj Enterprise to new heights, making it a leading force in sustainable energy solutions."
+            </p>
+
+            <div className="SocialMedia">
+
+              <img src={linkdin} alt="" />
+              <img src={twitter} alt="" />
+              <img src={insta} alt="" />
+
+            </div>
+
+          </div>
+        </div>
 
 
 
 
-    </div>
-    
-    
+
+
+      </div>
+
+
     </>
   )
 }
