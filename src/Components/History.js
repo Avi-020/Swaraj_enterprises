@@ -2,6 +2,13 @@ import React from 'react'
 import "../styles/History.css"
 import history from "../images/history.svg"
 import trusted from "../images/trusted.svg"
+import Renu from "../images/Renu.svg"
+import Gartech from "../images/Gartech.svg"
+import Vasundhara from "../images/Vasundhara.svg"
+import SVS from "../images/SVS.svg"
+import Electronica from "../images/Electronica.svg"
+
+
 function History() {
   return (
     <>
@@ -22,10 +29,11 @@ function History() {
         <h2 style={{textAlign:"center"}}>Our Clients</h2>
 
         <div className="icons" >
-            <img src={trusted} alt="" />
-            <img src={trusted} alt="" />
-            <img src={trusted} alt="" />
-            <img src={trusted} alt="" />
+            <img src={Renu} alt="" />
+            <img src={Gartech} alt="" />
+            <img src={Vasundhara} alt="" />
+            <img src={SVS} alt="" />
+            {/* <img src={Electronica} alt="" /> */}
             
         
         </div>
