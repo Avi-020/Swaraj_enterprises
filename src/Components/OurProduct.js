@@ -11,6 +11,15 @@ import foundationBoalt from "../images/foundationBoalt.svg"
 import Mesh from "../images/Mesh.svg"
 import Nails from "../images/Nails.svg"
 import Eyenut from "../images/Eyenut.svg"
+import anchor from "../images/anchor.jpg"
+import nuts from "../images/nuts.png"
+import washer from "../images/washer.png"
+import Studs from "../images/Studs.png"
+import CoachScrew from "../images/CoachScrew.png"
+import ScaffoldingHardware from "../images/ScaffoldingHardware.jpg"
+import WeldingHardware from "../images/WeldingHardware.jpg"
+import HooksPins from "../images/Hooks&Pins.jpg"
+import PipeSupportSolutions from "../images/PipeSupportSolutions.png"
 
 
 function OurProduct() {
@@ -39,7 +48,7 @@ function OurProduct() {
     {/* <!-- Team Member 2 --> */}
     <div className="col-xl-3 col-md-6 mb-4">
       <div className="card border-0 shadow">
-        <img src="https://source.unsplash.com/9UVmlIb0wJU/500x350" className="card-img-top" alt="..." />
+        <img src={nuts} className="card-img-top" alt="..." />
         <div className="card-body text-center">
           <h5 className="card-title mb-0">Nuts</h5>
            
@@ -60,7 +69,7 @@ function OurProduct() {
 
     <div className="col-xl-3 col-md-6 mb-4">
       <div className="card border-0 shadow">
-        <img src="https://source.unsplash.com/7u5mwbu7qLg/500x350" className="card-img-top" alt="..." />
+        <img src={anchor} className="card-img-top" alt="..." />
         <div className="card-body text-center">
           <h5 className="card-title mb-0">Anchors</h5>
            
@@ -82,7 +91,7 @@ function OurProduct() {
 
     <div className="col-xl-3 col-md-6 mb-4">
       <div className="card border-0 shadow">
-        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" className="card-img-top" alt="..." />
+        <img src={washer} className="card-img-top" alt="..." />
         <div className="card-body text-center">
           <h5 className="card-title mb-0">Washers</h5>
            
@@ -116,7 +125,7 @@ function OurProduct() {
 
     <div className="col-xl-3 col-md-6 mb-4">
       <div className="card border-0 shadow">
-        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" className="card-img-top" alt="..." />
+        <img src={Studs} className="card-img-top" alt="..." />
         <div className="card-body text-center">
           <h5 className="card-title mb-0">Studs</h5>
            
@@ -127,7 +136,7 @@ function OurProduct() {
 
     <div className="col-xl-3 col-md-6 mb-4">
       <div className="card border-0 shadow">
-        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" className="card-img-top" alt="..." />
+        <img src={CoachScrew} className="card-img-top" alt="..." />
         <div className="card-body text-center">
           <h5 className="card-title mb-0">Coach Screws</h5>
            
@@ -161,7 +170,7 @@ function OurProduct() {
 
     <div className="col-xl-3 col-md-6 mb-4">
       <div className="card border-0 shadow">
-        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" className="card-img-top" alt="..." />
+        <img src={ScaffoldingHardware} className="card-img-top" alt="..." />
         <div className="card-body text-center">
           <h5 className="card-title mb-0">Scaffolding Hardware</h5>
            
@@ -173,7 +182,7 @@ function OurProduct() {
 
     <div className="col-xl-3 col-md-6 mb-4">
       <div className="card border-0 shadow">
-        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" className="card-img-top" alt="..." />
+        <img src={WeldingHardware} className="card-img-top" alt="..." />
         <div className="card-body text-center">
           <h5 className="card-title mb-0">Welding Hardware</h5>
            
@@ -196,7 +205,7 @@ function OurProduct() {
 
     <div className="col-xl-3 col-md-6 mb-4">
       <div className="card border-0 shadow">
-        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" className="card-img-top" alt="..." />
+        <img src={PipeSupportSolutions} className="card-img-top" alt="..." />
         <div className="card-body text-center">
           <h5 className="card-title mb-0">Pipe Support Solutions</h5>
            
@@ -218,7 +227,7 @@ function OurProduct() {
 
     <div className="col-xl-3 col-md-6 mb-4">
       <div className="card border-0 shadow">
-        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" className="card-img-top" alt="..." />
+        <img src={HooksPins} className="card-img-top" alt="..." />
         <div className="card-body text-center">
           <h5 className="card-title mb-0">Hooks & Pins</h5>
            
