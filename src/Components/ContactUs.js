@@ -3,32 +3,18 @@ import React from 'react'
 import phone from "../images/phone.svg"
 import message from "../images/message.svg"
 import location from "../images/location.svg"
+import "../styles/ContactUs.css"
 
 function ContactUs() {
     return (
-        <div>
+        <div style={{paddingBottom:"4vh"}}>
             <h1 style={{ textAlign: "center" }}>Contact Us</h1>
 
-            <div className="partition" style={{ display: "flex" }}>
-                <div style={{ flex: "1" }}>
-                    <h4 style={{ marginLeft: "3vh" }}>
-                    <img src={phone} alt=""  style={{marginLeft:"1vh",marginRight:"2vh"}}/>
-                        Phone number</h4>
-                        <p>+91 98123 98123</p>
-                </div>
-                <div style={{ flex: "1" }}>
-                    <h4 style={{ marginLeft: "3vh" }}>
-                    <img src={message} alt=""  style={{marginLeft:"1vh",marginRight:"2vh"}}/>
-                        Gmail ID</h4>
-                        <p>swarajenterprise@gmail.com</p>
-                </div>
-                <div style={{ flex: "1" }}>
-                    <h4 style={{ marginLeft: "3vh" }}>
-                    <img src={location} alt=""  style={{marginLeft:"1vh",marginRight:"2vh"}}/>
-                        Address</h4>
-                        <p>123 street, xyz road, abc</p>
-                </div>
+            <div className='contactUS' >
 
+            <h3><img src={phone} alt="" style={{marginLeft:"1vh" , marginRight:"2vh"}} />+91 98123 98123</h3>
+           <h3> <img src={message} alt="" style={{marginRight:"2vh"}} />swarajenterprise@gmail.com</h3>
+           <h3 style={{marginRight:"1vh"}}><img src={location} alt="" style={{marginRight:"2vh"}} />123 street, xyz road, abc</h3> 
 
             </div>
         </div>

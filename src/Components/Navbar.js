@@ -8,7 +8,8 @@ import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import { Twitter } from '@mui/icons-material';
 import { LinkedIn } from '@mui/icons-material';
 import { Instagram } from '@mui/icons-material';
-
+import HomePage from "./HomePage";
+import History from "../Components/History"
 
 
 function Navbar() {
@@ -29,7 +30,7 @@ function Navbar() {
       <div className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
         
         <a className="nav-link nav-link-ltr active" href="#" >Home</a>
-        <a className="nav-link nav-link-ltr" href="#">History</a>
+        <a className="nav-link nav-link-ltr" href="#history">History</a>
         <a className="nav-link nav-link-ltr" href="#">Products</a>
         <a className="nav-link nav-link-ltr" href="#">Profile</a>
         <a className="nav-link nav-link-ltr" href="#">Contact us</a>
@@ -45,7 +46,11 @@ function Navbar() {
     </div>
     </div>
 
-
+    <HomePage/>
+    
+    <a id="history">
+    <History id="history"/>
+    </a>
     
     </>
   )

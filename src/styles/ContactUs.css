@@ -1,0 +1,23 @@
+
+
+.contactUS{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   color: #555770;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+    .contactUS{
+       text-align: center;
+        flex-direction: column;
+    }
+    .contactUS h3{
+        font-size: large;
+    }
+
+}

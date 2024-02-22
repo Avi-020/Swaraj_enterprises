@@ -6,7 +6,7 @@ function HomePage() {
   return (
     <>
 
-      <div className="main" style={{ backgroundColor: "#F7F7F7", paddingBottom: "25vw",backgroundImage:"url(https://lh5.googleusercontent.com/p/AF1QipPgHkkaKlL5E3sD140UdONI2cA9zHQoGzq1PY4t=w1080-k-no)" }}>
+      <div className="main" style={{  paddingBottom: "25vw" }}>
 
 
 
