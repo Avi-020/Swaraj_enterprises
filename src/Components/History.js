@@ -15,7 +15,7 @@ function History() {
     <div style={{width:"100%",height:"auto",backgroundColor:"#CDC3A9"}}>
 
     
-    <h1 style={{textAlign:"center",fontFamily:"Poppins",fontWeight:"600",color:"#003966"}} className='pt-5'> History of our enterprise</h1>
+    {/* <h1 style={{textAlign:"center",fontFamily:"Poppins",fontWeight:"600",color:"#003966"}} className='pt-5'> History of our enterprise</h1> */}
     
     <div className="img" style={{textAlign:"center",marginTop:"3vw"}} >
 
