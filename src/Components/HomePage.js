@@ -2,12 +2,12 @@ import React from 'react'
 import "../styles/Homepage.css"
 import store from '../images/store.svg'
 
+
 function HomePage() {
   return (
     <>
 
       <div className="main" style={{  paddingBottom: "25vw" }}>
-
 
 
 
@@ -23,9 +23,9 @@ function HomePage() {
 
         </div> */}
         <div className="left">
-          <div className='heading'>Our commitment to quality isn't just a promise;  it's a tradition that spans generations</div>
+          <div className='heading'>Our commitment to quality isn't just a promise; <br /> it's a tradition that spans generations</div>
           {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p> */}
-          <h5 className='ml-5 CoHeading'><b>"Quality isn't just a goal; it's our standard</b></h5>
+          <h5 className=' CoHeading'><b>"Quality isn't just a goal; it's our standard "</b></h5>
           
           <div className="contact">
             Contact Us

@@ -3,6 +3,9 @@
     height: auto;
     position: relative;
 }
+.CoHeading{
+    margin-left: 8vh;
+}
 
 .left p{
     font-family: Lato;
@@ -57,12 +60,16 @@
     
     .heading{
         
-        font-size: xx-large;
+        font-size: 3vh;
 
-        margin-top: 0;
+        margin-top: 4vh;
         margin-left: 2vh;
-        text-align: center;
-        line-height: 40px;
+        /* text-align: center; */
+        line-height: 30px;
+    }
+    .CoHeading{
+        margin-left: 2vh;
+        color: #555770;
     }
 
     .contact{
