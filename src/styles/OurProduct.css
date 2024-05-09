@@ -1,9 +1,22 @@
+@media only screen and (max-width: 768px) {
+/* phone screen  */
 
+.OurProductImg{
+    width: auto;
+    height: auto;
+    
+}
+}
 
 @media (min-width: 576px) {
     .card-group.card-group-scroll {
         overflow-x: auto;
         flex-wrap: nowrap;
+    }
+    .OurProductImg{
+        width: 15vw;
+        height: 15vw;
+        
     }
 }
 
